@@ -1,0 +1,5 @@
+name = "test2"
+purpose = "Checks TB2J handling of non-collinear magnetic structures."
+note = "Requires TB2J version >=2.0."
+tb2j_version = "2.0.0"
+tags = ["advanced", "noncollinear", "magnetic"]

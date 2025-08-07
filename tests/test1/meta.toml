@@ -1,0 +1,5 @@
+name = "test1"
+purpose = "Validates exchange parameter extraction for simple cubic structure."
+note = "Basic test case for regression."
+tb2j_version = "2.0.0"
+tags = ["basic", "regression", "structure"]

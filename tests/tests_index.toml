@@ -1,0 +1,13 @@
+[[tests]]
+name = "test1"
+path = "tests/test1"
+purpose = "Validates exchange parameter extraction for simple cubic structure."
+note = "Basic test case for regression."
+tb2j_version = "2.0.0"
+
+[[tests]]
+name = "test2"
+path = "tests/test2"
+purpose = "Checks TB2J handling of non-collinear magnetic structures."
+note = "Requires TB2J version >=2.0."
+tb2j_version = "2.0.0"
