@@ -1,0 +1,9 @@
+name = "1_template"
+description = "Dummy test for template structure."
+input_dir = "../../inputs/1_template"
+run_command = "bash runner/run.sh"
+reference_files = ["refs/output1.dat"]
+keywords = ["template", "dummy"]
+tb2j_version = "v0.7.0"
+added_by = "your_name"
+date = "2025-08-07"
