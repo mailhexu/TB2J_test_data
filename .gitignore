@@ -1,4 +1,10 @@
+# temporary data which are to be added or removed. 
+_temp
+
+
+# figures 
 *.pdf
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
