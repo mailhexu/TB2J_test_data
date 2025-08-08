@@ -1,0 +1,9 @@
+name = "2_wannier_collinear_SrMnO3"
+description = "Test wann2J.py on example SrMnO3 in collinear mode"
+input_dir = "inputs/2_SrMnO3_wannier_collinear"
+run_command = "bash runner/run.sh"
+reference_files = ["refs/TB2J_results"]
+keywords = ["wannier", "collinear", "SrMnO3"]
+tb2j_version = "v0.9.9"
+added_by = "hexu"
+date = "2025-08-07"

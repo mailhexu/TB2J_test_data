@@ -1,0 +1,1 @@
+wann2J.py --path ../../../inputs/2_SrMnO3_wannier/data --posfile abinit.in --efermi 6.15 --kmesh 5 5 5 --nz 50 --elements Mn --prefix_up abinito_w90_up --prefix_down abinito_w90_down --output_path ../result/TB2J_results
