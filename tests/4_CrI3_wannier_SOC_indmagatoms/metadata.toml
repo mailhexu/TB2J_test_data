@@ -1,0 +1,9 @@
+name = "3_CrI3_wannier_SOC"
+description = "Test for Wannier with SOC, with x, y, z data"
+input_dir = "../../inputs/3_CrI3_wannier_SOC/data"
+run_command = "bash runner/run.sh"
+reference_files = ["refs/TB2J_results"]
+keywords = ["wannier", "SOC", "merge"]
+tb2j_version = "v0.9.0"
+added_by = "HeXu"
+date = "2025-08-10"
