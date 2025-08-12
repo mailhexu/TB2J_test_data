@@ -1,0 +1,76 @@
+SystemName	siesta
+SystemLabel	siesta
+
+#CDF.save	True
+DM.NumberPulay	6
+Diag.ParallelOverK	True
+ElectronicTemperature	100 K
+MaxSCFIterations	5000
+MullikenInSCF	False
+SCF.DM.Tolerance	0.0003
+SCF.EDM.Tolerance	1e-1 eV
+SCF.H.Tolerance	1e-2 eV
+SCF.Mix.Spin	sum
+SCF.Mixer.History	16
+SCF.Mixer.Method	Pulay
+SCF.Mixer.Weight	0.2
+SCF.MustConverge	False
+SCFMustConverge	False
+SaveHS	True
+WriteHirshfeldPop	True
+WriteMullikenPop	1
+WriteVoronoiPop	True
+#savehs.so	True
+
+Spin	collinear
+SpinPolarized	True	# Backwards compatibility.
+XC.functional	GGA
+XC.authors	PBEsol
+
+MeshCutoff	8163.4158073101735	eV
+PAO.EnergyShift	0.1	eV
+
+NumberOfSpecies	2
+NumberOfAtoms	8
+%block ChemicalSpecieslabel
+    1 24 Cr.1
+    2 53 I.2
+%endblock ChemicalSpecieslabel
+
+%block PAO.BasisSizes
+    Cr.1	DZP
+    I.2	DZP
+%endblock PAO.BasisSizes
+
+
+LatticeConstant	1.0 Ang
+%block LatticeVectors
+    -6.012814379972 3.4715 0.0
+    -6.012814379972 -3.4715 0.0
+    0.0 0.0 12.999999999951
+%endblock LatticeVectors
+AtomicCoordinatesFormat	Ang
+%block AtomicCoordinatesAndAtomicSpecies
+    -4.008542919580443 0.0 6.499999996078847 1
+    -8.017085839160973 0.0 6.5000000038721515 1
+    -8.08994329709018 -2.2722690539771566 4.891332071253034 2
+    -2.0771289230778693 -1.19923093570046 8.108667928697965 2
+    -6.012814385330353 1.073038117929565 4.891332071253034 2
+    -6.012814373411149 -1.0730381179295643 8.108667928697965 2
+    -9.948499836264883 1.1992309360475915 4.891332071253034 2
+    -3.9356854622525708 2.2722690536300245 8.108667928697965 2
+%endblock AtomicCoordinatesAndAtomicSpecies
+%block DM.InitSpin
+    1 3.00000000000000 
+    2 3.00000000000000 
+%endblock DM.InitSpin
+
+DM.UseSaveDM	True
+
+#KPoint grid
+%block kgrid_Monkhorst_Pack
+     7       0       0  0.0
+     0       7       0  0.0
+     0       0       1  0.0
+%endblock kgrid_Monkhorst_Pack
+

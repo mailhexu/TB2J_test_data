@@ -1,0 +1,9 @@
+name = "5_CrI3_SIESTA_collinear"
+description = "Dummy test for template structure."
+input_dir = "../../inputs/4_CrI3_SIESTA_collinear"
+run_command = "bash runner/run.sh"
+reference_files = ["refs/TB2J_results"]
+keywords = ["SIESTA", "collinear"]
+tb2j_version = "v0.9.8"
+added_by = "hexu"
+date = "2025-08-12"
